@@ -14,8 +14,8 @@ import { bootstrapCameraKit } from '@snap/camera-kit';
   await session.play();
 
   const lens = await cameraKit.lensRepository.loadLens(
-    '7b7815c3-1ec1-4dc1-906a-3bceb412ae25',
-    'cd4e90de-7360-4dc8-8417-5eb2054c11af'
+    'f99088e9-940e-4a27-ac27-edaa1d04fbb8', //lens ud
+    'cd4e90de-7360-4dc8-8417-5eb2054c11af' // Lens group id
   );
 
   await session.applyLens(lens);
